@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ksenija Iakimova | Business Builder &amp; Fractional CFO/COO</title>
+<meta name="description" content="Ksenija Iakimova is a business builder and fractional CFO/COO in Stockholm. I build what's next — and make what's here work better.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ksenija Iakimova">
+<!-- Search Console: paste the verification tag here, then submit sitemap.xml -->
+<link rel="canonical" href="https://ksenija.co/">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/favicon-64.png" sizes="64x64" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#f4f2ee">
+<meta property="og:title" content="Ksenija Iakimova | Business Builder &amp; Fractional CFO/COO">
+<meta property="og:description" content="Make it work.">
+<meta property="og:url" content="https://ksenija.co/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://ksenija.co/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ksenija.co/og.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Ksenija Iakimova",
+      "alternateName": "Ksenija",
+      "jobTitle": "Business Builder & Fractional CFO/COO",
+      "knowsAbout": [
+        "Fractional CFO",
+        "Fractional COO",
+        "Strategic finance",
+        "Business operations",
+        "Business building",
+        "Venture building",
+        "Business transformation",
+        "Investor readiness",
+        "Growth"
+      ],
+      "worksFor": { "@type": "Organization", "name": "Independent" },
+      "description": "Business builder and operator working across strategic finance, operations, transformation and venture building.",
+      "url": "https://ksenija.co",
+      "email": "mailto:hello@ksenija.co",
+      "address": { "@type": "PostalAddress", "addressLocality": "Stockholm", "addressCountry": "SE" },
+      "sameAs": ["https://www.linkedin.com/in/ksenijaiakimova"]
+    },
+    {
+      "@type": "WebSite",
+      "name": "Ksenija Iakimova",
+      "url": "https://ksenija.co"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --black: #0a0a0a;
+    --white: #fff;
+    --sand: #f4f2ee;
+    --gold: #806b47;
+    --gray: #6e6c66;
+    --line: rgba(10,10,10,0.12);
+
+    --serif: 'Cormorant', Georgia, serif;
+    --sans: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-family: var(--serif);
+    font-weight: 300;
+    background: var(--sand);
+    color: var(--black);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+body.loading { overflow: hidden; }
+
+::selection { background: var(--black); color: var(--sand); }
+
+@media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1 !important; transform: none !important; }
+    .loader { display: none !important; }
+    body.loading { overflow: auto; }
+}
+
+/* ---------- Typographic languages ---------- */
+
+/* 1 · Huge serif — display only */
+.display {
+    font-family: var(--serif);
+    font-weight: 400;
+    line-height: 0.98;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+/* 2 · Grotesk — labels, numbers, navigation, factual */
+.label {
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+.num {
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 0.62rem;
+    letter-spacing: 0.16em;
+    color: var(--gray);
+}
+
+/* 3 · Serif regular/italic — the human voice */
+.voice {
+    font-family: var(--serif);
+    font-weight: 300;
+    font-size: clamp(1.15rem, 1.9vw, 1.32rem);
+    line-height: 1.55;
+}
+
+/* ---------- Loader ---------- */
+.loader {
+    position: fixed;
+    inset: 0;
+    background: #0a0a0a;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: transform 1.05s cubic-bezier(0.77, 0, 0.18, 1);
+}
+.loader.done { transform: translateY(-100%); }
+.loader-name {
+    font-family: var(--serif);
+    font-size: clamp(1.3rem, 3.2vw, 2rem);
+    font-weight: 400;
+    letter-spacing: 0.45em;
+    text-indent: 0.45em;
+    color: var(--sand);
+    text-transform: uppercase;
+}
+.loader-line {
+    width: 150px; height: 1px;
+    background: rgba(244,242,238,0.16);
+    position: relative;
+    overflow: hidden;
+}
+.loader-line::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--gold);
+    transform: translateX(-100%);
+    animation: fill 1.25s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+@keyframes fill { to { transform: translateX(0); } }
+
+/* ---------- Nav ---------- */
+.nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem clamp(1.4rem, 5vw, 4rem);
+    background: linear-gradient(var(--sand) 55%, rgba(244,242,238,0));
+}
+.nav a {
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--black);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav a:hover { color: var(--gold); }
+
+/* ---------- Layout ---------- */
+.wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 clamp(1.4rem, 5vw, 4rem);
+}
+
+section { padding: clamp(7rem, 18vh, 13rem) 0; }
+
+/* asymmetric grid: margin column + main column */
+.grid {
+    display: grid;
+    grid-template-columns: clamp(60px, 11vw, 130px) minmax(0, 1fr);
+    gap: clamp(1.2rem, 3vw, 2.5rem);
+}
+@media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr; gap: 0.6rem; }
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 1s ease, transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.in { opacity: 1; transform: none; }
+
+/* ---------- Hero ---------- */
+.hero {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+/* everything sits on one left axis; the right side stays empty on purpose */
+.hero-inner { max-width: 65%; }
+@media (max-width: 900px) { .hero-inner { max-width: 100%; } }
+
+.hero-place {
+    color: var(--gray);
+    margin-bottom: clamp(2rem, 5vh, 3.2rem);
+}
+.hero h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-size: clamp(2.8rem, 10.5vw, 9rem);
+    white-space: nowrap;
+}
+@media (max-width: 700px) { .hero h1 { white-space: normal; } }
+
+.hero-col {
+    margin-top: clamp(1.8rem, 4vh, 2.6rem);
+    max-width: 460px;
+}
+.hero-col .dna {
+    margin-top: 0.5rem;
+    margin-left: clamp(1.5rem, 5vw, 3.5rem);
+    font-style: italic;
+    color: rgba(10,10,10,0.72);
+    font-size: 1.08rem;
+}
+.link-arrow {
+    display: inline-block;
+    margin-top: clamp(3.5rem, 9vh, 6rem);
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--black);
+    text-decoration: none;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px solid var(--line);
+    transition: border-color 0.35s ease, color 0.35s ease;
+}
+.link-arrow:hover { color: var(--gold); border-color: var(--gold); }
+.link-arrow .a { transition: transform 0.35s ease; display: inline-block; }
+.link-arrow:hover .a { transform: translateX(4px); }
+
+/* ---------- Notes (problems) ---------- */
+.note { padding: clamp(1.6rem, 4vh, 2.4rem) 0; border-bottom: 1px solid var(--line); }
+.note:first-of-type { border-top: 1px solid var(--line); }
+.note p {
+    font-family: var(--serif);
+    font-weight: 300;
+    font-size: clamp(1.45rem, 3.3vw, 2.35rem);
+    line-height: 1.22;
+}
+
+.margin-note {
+    margin-top: clamp(2rem, 4vh, 3rem);
+    max-width: 420px;
+    margin-left: auto;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--gray);
+    text-align: right;
+}
+
+/* ---------- More here (own screen) ---------- */
+.more {
+    min-height: 88svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.more h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.98;
+    letter-spacing: 0.015em;
+    font-size: clamp(2.4rem, 8.5vw, 7rem);
+}
+.more-list {
+    margin-top: clamp(2.5rem, 6vh, 4rem);
+    margin-left: auto;
+    max-width: 380px;
+    width: 100%;
+}
+.more-list p {
+    font-family: var(--serif);
+    font-size: clamp(1.1rem, 1.9vw, 1.28rem);
+    color: rgba(10,10,10,0.75);
+}
+.more-list p + p { margin-top: 0.25rem; }
+
+/* ---------- In-between ---------- */
+.ib-head {
+    font-family: var(--serif);
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.98;
+    letter-spacing: 0.015em;
+    font-size: clamp(2.2rem, 7.5vw, 6rem);
+    margin-bottom: clamp(3rem, 7vh, 5rem);
+}
+.arc {
+    display: grid;
+    grid-template-columns: clamp(60px, 11vw, 130px) minmax(0, 1fr);
+    gap: clamp(1.2rem, 3vw, 2.5rem);
+    align-items: baseline;
+    padding: clamp(1.2rem, 3vh, 1.9rem) 0;
+    border-bottom: 1px solid var(--line);
+}
+.arc:first-of-type { border-top: 1px solid var(--line); }
+@media (max-width: 700px) { .arc { grid-template-columns: 1fr; gap: 0.4rem; } }
+.arc .t {
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: clamp(1rem, 2.6vw, 1.7rem);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.arc .t i { font-style: normal; color: var(--gold); padding: 0 0.35em; }
+
+/* ---------- Personal column (off-grid) ---------- */
+.personal {
+    margin-top: clamp(4.5rem, 10vh, 8rem);
+    max-width: 440px;
+    margin-left: clamp(0px, 34vw, 480px);
+}
+/* on a phone there is no margin to be off; the indents collapse to one axis */
+@media (max-width: 700px) {
+    .personal { margin-left: 0; max-width: 100%; }
+    .margin-note { margin-left: 0; text-align: left; max-width: 100%; }
+    .more-list { margin-left: 0; max-width: 100%; }
+    .hero-col { max-width: 100%; }
+}
+.personal p { font-family: var(--serif); font-weight: 300; font-size: clamp(1.15rem, 1.9vw, 1.3rem); line-height: 1.6; }
+.personal p + p { margin-top: 1.3rem; }
+.personal .it { font-style: italic; }
+
+.experience {
+    margin-top: clamp(3rem, 7vh, 5rem);
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--line);
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 0.62rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gray);
+    line-height: 2;
+}
+
+/* ---------- CTA ---------- */
+.contact { border-top: 1px solid var(--line); padding-bottom: clamp(8rem, 20vh, 14rem); }
+.contact h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.98;
+    letter-spacing: 0.015em;
+    font-size: clamp(2.4rem, 8.5vw, 7rem);
+}
+.contact-sub {
+    margin-top: 1.2rem;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(1.2rem, 2.1vw, 1.45rem);
+    color: rgba(10,10,10,0.72);
+}
+
+.form-grid {
+    margin-top: clamp(3.5rem, 8vh, 5.5rem);
+    display: grid;
+    grid-template-columns: minmax(0, 640px);
+}
+@media (max-width: 800px) { .form-grid { grid-template-columns: 1fr; } }
+
+.field { margin-bottom: 2.4rem; }
+.field label {
+    display: block;
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+.field .hint {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--gray);
+    margin-bottom: 0.8rem;
+}
+.field input, .field textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--line);
+    padding: 0.55rem 0;
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--black);
+    resize: none;
+    transition: border-color 0.35s ease;
+}
+.field input:focus, .field textarea:focus { outline: none; border-color: var(--black); }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 2.4rem; }
+@media (max-width: 600px) { .field-row { grid-template-columns: 1fr; gap: 0; } }
+
+.send {
+    margin-top: 0.6rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--line);
+    padding: 0 0 0.45rem;
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 0.62rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--black);
+    transition: border-color 0.35s ease, color 0.35s ease;
+}
+.send:hover { color: var(--gold); border-color: var(--gold); }
+
+.contact-alt {
+    margin-top: clamp(3.5rem, 8vh, 5rem);
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gray);
+}
+.contact-alt a { color: var(--black); text-decoration: none; transition: color 0.3s ease; }
+.contact-alt a:hover { color: var(--gold); }
+
+</style>
+</head>
+<body class="loading">
+
+<div class="loader" id="loader">
+    <div class="loader-name">Ksenija</div>
+    <div class="loader-line"></div>
+</div>
+
+<nav class="nav">
+    <a href="#top">Ksenija</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero wrap" id="top">
+    <div class="hero-inner">
+        <p class="label hero-place reveal">Stockholm · Elsewhere</p>
+        <h1 class="reveal">Make it work.</h1>
+        <div class="hero-col">
+            <p class="voice reveal">I build what's next —<br>and make what's here work better.</p>
+            <p class="voice dna reveal">with serious finance DNA.</p>
+        </div>
+        <a href="#contact" class="link-arrow reveal">Bring me a problem <span class="a">→</span></a>
+    </div>
+</header>
+
+<!-- NOTES -->
+<section aria-label="What this usually looks like">
+    <div class="wrap">
+        <div class="note grid reveal">
+            <span class="num">01</span>
+            <p>The founder is still the operating system.</p>
+        </div>
+        <div class="note grid reveal">
+            <span class="num">02</span>
+            <p>The numbers exist.<br>The picture doesn't.</p>
+        </div>
+        <div class="note grid reveal">
+            <span class="num">03</span>
+            <p>We work hard.<br>Still, too much gets stuck.</p>
+        </div>
+        <p class="margin-note reveal">It really shouldn't be this complicated.</p>
+    </div>
+</section>
+
+<!-- MORE HERE -->
+<section class="more">
+    <div class="wrap">
+        <h2 class="reveal">Maybe there's<br>more here.</h2>
+        <div class="more-list">
+            <p class="reveal">A better offer.</p>
+            <p class="reveal">A new market.</p>
+            <p class="reveal">Another revenue stream.</p>
+            <p class="reveal">Maybe a whole new business.</p>
+        </div>
+    </div>
+</section>
+
+<!-- IN-BETWEEN -->
+<section>
+    <div class="wrap">
+        <h2 class="ib-head reveal">I like the<br>in-between.</h2>
+
+        <div class="arc reveal">
+            <span class="num">01</span>
+            <span class="t">Chaos <i>→</i> Clarity</span>
+        </div>
+        <div class="arc reveal">
+            <span class="num">02</span>
+            <span class="t">Stuck <i>→</i> Moving</span>
+        </div>
+        <div class="arc reveal">
+            <span class="num">03</span>
+            <span class="t">Opportunity <i>→</i> Business</span>
+        </div>
+
+        <div class="personal">
+            <p class="reveal">I'm at my best when something is changing — or needs to.</p>
+            <p class="reveal">I like being close enough to the numbers to know what's true — and close enough to the business to do something about it.</p>
+            <p class="reveal it">I build my own things too. Keeps me honest.</p>
+        </div>
+
+        <p class="experience reveal">Experience across listed companies, founder-led businesses, scale-ups and ventures.</p>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="contact" id="contact">
+    <div class="wrap">
+        <h2 class="reveal">Got something?</h2>
+        <p class="contact-sub reveal">Send me the messy version.</p>
+
+        <div class="form-grid">
+            <form action="https://submit-form.com/YOUR_FORMSPARK_ID" method="POST">
+                <input type="hidden" name="_redirect" value="https://ksenija.co/thanks.html">
+                <input type="checkbox" name="_honeypot" style="display:none" tabindex="-1" autocomplete="off">
+                <input type="hidden" name="utm_source" id="utm_source">
+                <input type="hidden" name="utm_medium" id="utm_medium">
+                <input type="hidden" name="utm_campaign" id="utm_campaign">
+                <input type="hidden" name="landing_page" id="landing_page">
+                <input type="hidden" name="referrer" id="referrer">
+
+                <div class="field reveal">
+                    <label for="working">What are you working on?</label>
+                    <p class="hint">What's going on — or what are you thinking about?</p>
+                    <textarea id="working" name="What are you working on" rows="5" required></textarea>
+                </div>
+                <div class="field-row">
+                    <div class="field reveal">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="Name" required>
+                    </div>
+                    <div class="field reveal">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email" required>
+                    </div>
+                </div>
+                <button type="submit" class="send reveal">Send it →</button>
+            </form>
+
+        </div>
+
+        <p class="contact-alt reveal">
+            <a href="mailto:hello@ksenija.co">hello@ksenija.co</a>
+            &nbsp;·&nbsp;
+            <a href="https://www.linkedin.com/in/ksenijaiakimova" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+    </div>
+</section>
+
+<script>
+/* Analytics — cookieless, no consent banner needed.
+   Cloudflare Web Analytics (free): paste the beacon script tag from
+   dash.cloudflare.com just above </body>. Leads are counted as
+   pageviews on /thanks.html; the UTM fields on the form carry the
+   source through to your inbox. Swap in Plausible later if you want
+   per-button events. */
+
+// Loader — every page load
+(function () {
+    function done() {
+        document.getElementById('loader').classList.add('done');
+        document.body.classList.remove('loading');
+        document.body.classList.add('ready');
+    }
+    window.addEventListener('load', function () { setTimeout(done, 1400); });
+    setTimeout(done, 3500);
+})();
+
+// UTM & source capture — hidden fields only
+(function () {
+    try {
+        var p = new URLSearchParams(window.location.search);
+        ['utm_source', 'utm_medium', 'utm_campaign'].forEach(function (k) {
+            var el = document.getElementById(k);
+            if (el && p.get(k)) el.value = p.get(k);
+        });
+        document.getElementById('landing_page').value = window.location.pathname + window.location.search;
+        document.getElementById('referrer').value = document.referrer || 'direct';
+    } catch (e) {}
+})();
+
+// Scroll reveal
+var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+</script>
+
+</body>
+</html>
